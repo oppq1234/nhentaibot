@@ -1,0 +1,1 @@
+web: unicorn --pythonpath linebotTest2 linebotTest2.wsgi

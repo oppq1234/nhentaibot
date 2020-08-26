@@ -17,3 +17,4 @@ soupsieve==2.0.1
 sqlparse==0.3.1
 static3==0.7.0
 urllib3==1.25.10
+APScheduler==3.6.1

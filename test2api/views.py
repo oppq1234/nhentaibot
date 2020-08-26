@@ -23,6 +23,9 @@ headers = {
         'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
     }
 
+def hello(request):
+    return HttpResponse("hello")
+
 def checklink(num):                             # 回傳網址
         while True:
             num = random.randint(1, 400000)

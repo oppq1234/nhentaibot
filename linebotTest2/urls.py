@@ -21,4 +21,5 @@ from test2api import views
 urlpatterns = [
     url('^callback', views.callback),
     path('admin/', admin.site.urls),
+    url(r'^$', views.hello),
 ]

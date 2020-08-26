@@ -121,7 +121,7 @@ def set_habbit(num, user_id):
         result.extend(tag_total[i])
     print(result)
     tag_total = result
-    userdata.habbit.clear()
+    userdata.habbit = ''
     for i in range(0, len(tag_total), 2):
         userdata.habbit = userdata.habbit + tag_total[i] + " " + str(tag_total[i + 1]) + "\n"
     # userdata.habbit = "\n".join(tag_total) # 這邊改

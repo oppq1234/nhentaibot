@@ -188,6 +188,7 @@ def set_dislike(num, user_id):
     for i in range(len(tag_total)):
         result.extend(tag_total[i])
     tag_total = result
+    userdata.habbit = ''
     for i in range(0, len(tag_total), 2):
         userdata.habbit = userdata.habbit + tag_total[i] + " " + str(tag_total[i + 1]) + "\n"
     # userdata.habbit = "\n".join(tag_total) # 這邊改

@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'linebotTest2.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'jango.db.backends.postgresql_psycopg2',
         'NAME': 'userDB',
         'USER': 'user',
         'PASSWORD': 'user123',
-        'HOST': 'db',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }

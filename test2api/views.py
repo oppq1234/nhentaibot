@@ -70,6 +70,7 @@ def set_habbit(num, user_id):
     tag_total.clear()
     origin = "https://nhentai.net/g/" + str(num)
     resp = requests.get(origin, headers = headers)
+    # fuck
 
     if users.objects.filter(uid = user_id).exists() == True:
         userdata = users.objects.get(uid = user_id)
